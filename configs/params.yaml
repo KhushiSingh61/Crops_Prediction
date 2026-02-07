@@ -1,0 +1,13 @@
+data:
+  raw_path: data/raw/yield_df.csv
+  processed_path: data/processed/clean_data.csv
+  features_path: data/processed/features.csv
+
+model:
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
+  max_depth: 10
+
+mlflow:
+  experiment_name: crop_yield_prediction
